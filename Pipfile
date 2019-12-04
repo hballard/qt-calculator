@@ -7,6 +7,7 @@ verify_ssl = true
 mypy = "*"
 black = "*"
 flake8 = "*"
+pyinstaller = "*"
 
 [packages]
 pyside2 = "*"
