@@ -16,6 +16,7 @@ class MainWindow(QMainWindow):
         self.initialize_slots()
 
     def initialize_slots(self):
+        # Initialize numeric digits
         self.ui.pushButton_one.clicked.connect(partial(self.controller.on_digit_click, '1'))
         self.ui.pushButton_two.clicked.connect(partial(self.controller.on_digit_click, '2'))
         self.ui.pushButton_three.clicked.connect(partial(self.controller.on_digit_click, '3'))
@@ -27,15 +28,18 @@ class MainWindow(QMainWindow):
         self.ui.pushButton_nine.clicked.connect(partial(self.controller.on_digit_click, '9'))
         self.ui.pushButton_zero.clicked.connect(partial(self.controller.on_digit_click, '0'))
 
+        # Initialize modifiers
         self.ui.pushButton_decimal.clicked.connect(self.controller.on_decimal_click)
         self.ui.pushButton_change_sign.clicked.connect(self.controller.on_change_sign_click)
         self.ui.pushButton_percentage.clicked.connect(self.controller.on_percent_click)
 
+        # Initialize arithmatic operators
         self.ui.pushButton_add.clicked.connect(partial(self.controller.on_operator_click, '+'))
         self.ui.pushButton_subtract.clicked.connect(partial(self.controller.on_operator_click, '-'))
         self.ui.pushButton_multiply.clicked.connect(partial(self.controller.on_operator_click, '*'))
         self.ui.pushButton_division.clicked.connect(partial(self.controller.on_operator_click, '/'))
 
+        # Initialize clear and equals buttons
         self.ui.pushButton_clear.clicked.connect(self.controller.on_clear_click)
         self.ui.pushButton_equals.clicked.connect(self.controller.on_equals_click)
 

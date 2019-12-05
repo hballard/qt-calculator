@@ -59,7 +59,7 @@ QPushButton:pressed {
 }
 
 QPushButton[cssClass=&quot;actions&quot;] {
-	background-color: rgb(244, 199, 0)
+	background-color: rgb(243, 165, 0)
 }
 
 QPushButton[cssClass=&quot;actions&quot;]:pressed {
@@ -362,7 +362,7 @@ QPushButton[cssClass=&quot;actions&quot;]:pressed {
          <string notr="true"/>
         </property>
         <property name="text">
-         <string>*</string>
+         <string>x</string>
         </property>
         <property name="cssClass" stdset="0">
          <string>actions</string>
@@ -650,7 +650,7 @@ QPushButton[cssClass=&quot;actions&quot;]:pressed {
          <string notr="true"/>
         </property>
         <property name="text">
-         <string>C</string>
+         <string>AC</string>
         </property>
         <property name="cssClass" stdset="0">
          <string>actions</string>

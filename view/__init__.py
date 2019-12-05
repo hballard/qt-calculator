@@ -11,5 +11,5 @@ class CalculatorUI(Ui_MainWindow):
     def set_display_text(self, text: str):
         self.label_output.setText(text)
 
-    def get_display_text(self):
-        return self.label_output.text()
+    def set_button_text(self, text: str):
+        self.pushButton_clear.setText(text)

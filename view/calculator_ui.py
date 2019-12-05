@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'view/calculator.ui',
 # licensing of 'view/calculator.ui' applies.
 #
-# Created: Sun Dec  1 22:42:45 2019
+# Created: Wed Dec  4 21:37:38 2019
 #      by: pyside2-uic  running on PySide2 5.13.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -46,7 +46,7 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "QPushButton[cssClass=\"actions\"] {\n"
-"    background-color: rgb(244, 199, 0)\n"
+"    background-color: rgb(243, 165, 0)\n"
 "}\n"
 "\n"
 "QPushButton[cssClass=\"actions\"]:pressed {\n"
@@ -359,7 +359,7 @@ class Ui_MainWindow(object):
         self.pushButton_subtract.setText(QtWidgets.QApplication.translate("MainWindow", "-", None, -1))
         self.pushButton_subtract.setProperty("cssClass", QtWidgets.QApplication.translate("MainWindow", "actions", None, -1))
         self.pushButton_equals.setText(QtWidgets.QApplication.translate("MainWindow", "=", None, -1))
-        self.pushButton_multiply.setText(QtWidgets.QApplication.translate("MainWindow", "*", None, -1))
+        self.pushButton_multiply.setText(QtWidgets.QApplication.translate("MainWindow", "x", None, -1))
         self.pushButton_multiply.setProperty("cssClass", QtWidgets.QApplication.translate("MainWindow", "actions", None, -1))
         self.pushButton_division.setText(QtWidgets.QApplication.translate("MainWindow", "/", None, -1))
         self.pushButton_division.setProperty("cssClass", QtWidgets.QApplication.translate("MainWindow", "actions", None, -1))
@@ -373,7 +373,7 @@ class Ui_MainWindow(object):
         self.pushButton_six.setText(QtWidgets.QApplication.translate("MainWindow", "6", None, -1))
         self.pushButton_eight.setText(QtWidgets.QApplication.translate("MainWindow", "8", None, -1))
         self.pushButton_four.setText(QtWidgets.QApplication.translate("MainWindow", "4", None, -1))
-        self.pushButton_clear.setText(QtWidgets.QApplication.translate("MainWindow", "C", None, -1))
+        self.pushButton_clear.setText(QtWidgets.QApplication.translate("MainWindow", "AC", None, -1))
         self.pushButton_clear.setProperty("cssClass", QtWidgets.QApplication.translate("MainWindow", "actions", None, -1))
         self.pushButton_zero.setText(QtWidgets.QApplication.translate("MainWindow", "0", None, -1))
 
